@@ -59,16 +59,6 @@ public class ConfigManager {
 		}
 	}
 	
-	public static  String getConfigCenter() {
-		if (IS_WINDOW) {
-			return "D:" + File.separator  + "config_center/";
-		} else if (IS_MAC) {
-			return "/tongqu/config_center/";
-		} else {
-			return "/tongqu/server/config_center/";
-		}
-	}
-
 	public Map<String, String> getConfig() throws FileNotFoundException,
 			IOException {
 		Map<String, String> configMap = new HashMap<String, String>();

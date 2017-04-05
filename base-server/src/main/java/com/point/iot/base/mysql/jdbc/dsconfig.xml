@@ -1,0 +1,20 @@
+<ds-config>
+	<pool>
+		<type>mysql</type>
+		<name>game</name>
+		<driver>org.gjt.mm.mysql.Driver</driver>
+		<url>jdbc:mysql://10.18.116.210:3306/game</url>
+		<username>root</username>
+		<password>tongqu</password>
+		<maxconn>100</maxconn>
+	</pool>
+	<pool>
+		<type>mysql</type>
+		<name>game-sta</name>
+		<driver>org.gjt.mm.mysql.Driver</driver>
+		<url>jdbc:mysql://10.18.116.210:3306/game-test</url>
+		<username>root</username>
+		<password>tongqu</password>
+		<maxconn>100</maxconn>
+	</pool>
+</ds-config>
